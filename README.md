@@ -60,10 +60,9 @@ O projeto está organizado da seguinte forma:
 
 ## 📌 Observações
 
-* Projeto desenvolvido com fins **educacionais**
-* Não utiliza frameworks ou bibliotecas externas
-* O foco está na compreensão do funcionamento de APIs e JavaScript puro
-* Ideal para estudos iniciais em desenvolvimento web
+* Projeto desenvolvido sem o uso de frameworks ou bibliotecas externas
+* Foco no aprendizado do consumo de APIs e na utilização de JavaScript puro
+* Indicado para estudos iniciais em desenvolvimento web e front-end
 
 ---
 
