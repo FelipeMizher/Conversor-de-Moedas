@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">   
+        <h1>Conversor de Moedas</h1>
+
+        <!-- Escolher qual Moeda -->
+        <div class="opcaoConversao">
+            <label for="opcaoMoeda">Escolher Moeda</label>
+            <select id="OpcaoMoeda">
+                <option value="real">REAL</option>
+                <option value="dolar">DOLAR</option>
+                <option value="euro">EURO</option>
+            </select>
+        </div>
+
+        <!-- Campo para Digitar o Valor -->
+        <div class="linhaValor">
+            <input type="number" id="valor" placeholder="Digite o valor">
+            <button onclick="converterMoedas()">Converter</button>
+        </div>
+
+        <!-- Exibir o Resultado das Moedas -->
+        <div class="resultado">
+            <p id="real"></p>
+            <p id="dolar"></p>
+            <p id="euro"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
